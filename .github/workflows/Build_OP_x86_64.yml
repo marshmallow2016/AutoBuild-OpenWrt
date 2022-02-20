@@ -12,8 +12,10 @@ on:
     types: [published]
 
   push:
-   branches: 
-     - master
+#    branches: 
+#      - master
+    paths:
+      - 'x86_64.config'
 
   #schedule:
   #  - cron: 0 8 * * 5
