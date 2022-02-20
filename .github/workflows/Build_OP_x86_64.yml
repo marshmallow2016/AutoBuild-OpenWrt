@@ -16,6 +16,7 @@ on:
 #      - master
     paths:
       - 'x86_64.config'
+      - 'customize.sh'
 
   #schedule:
   #  - cron: 0 8 * * 5
